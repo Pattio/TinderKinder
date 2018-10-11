@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		604BB20C216C03DF00BA2CD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BB20B216C03DF00BA2CD6 /* main.swift */; };
+		604BD94F216D1B6100F1DA3E /* TinderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BD94E216D1B6100F1DA3E /* TinderRequest.swift */; };
+		604BD951216D276A00F1DA3E /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BD950216D276A00F1DA3E /* ImageDownloader.swift */; };
+		604BD953216D30A300F1DA3E /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604BD952216D30A300F1DA3E /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		604BB208216C03DF00BA2CD6 /* TinderKinder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TinderKinder; sourceTree = BUILT_PRODUCTS_DIR; };
 		604BB20B216C03DF00BA2CD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		604BD94E216D1B6100F1DA3E /* TinderRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderRequest.swift; sourceTree = "<group>"; };
+		604BD950216D276A00F1DA3E /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		604BD952216D30A300F1DA3E /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				604BB20B216C03DF00BA2CD6 /* main.swift */,
+				604BD94E216D1B6100F1DA3E /* TinderRequest.swift */,
+				604BD950216D276A00F1DA3E /* ImageDownloader.swift */,
+				604BD952216D30A300F1DA3E /* ImageCache.swift */,
 			);
 			path = TinderKinder;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				604BB20C216C03DF00BA2CD6 /* main.swift in Sources */,
+				604BD94F216D1B6100F1DA3E /* TinderRequest.swift in Sources */,
+				604BD953216D30A300F1DA3E /* ImageCache.swift in Sources */,
+				604BD951216D276A00F1DA3E /* ImageDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
