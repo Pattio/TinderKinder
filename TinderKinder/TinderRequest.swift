@@ -43,9 +43,7 @@ class TinderRequest {
                 return
             }
             // If response is not an image return
-            guard let data = data,
-                let fileExtension = response?.suggestedFilename,
-                NSString(string: fileExtension).pathExtension == "jpeg" else {
+            guard let data = data else {
                 completion(.error("Response is not an image"))
                 return
             }
