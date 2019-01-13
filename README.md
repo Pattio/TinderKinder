@@ -1,5 +1,5 @@
 # TinderKinder
-Simple script that fetches images of people who like you on tinder
+Simple script that fetches images of people who liked you on tinder
 
 # Usage 
 `./TinderKinder <X-Auth-Token> <Fetch Time Interval (s)>`
